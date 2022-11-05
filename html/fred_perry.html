@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/fperry.css">
+
+  <title>Gallo a la Moda</title>
+
+  <link rel="shortcut icon" href="../Imagenes/Logo.ico"> 
+</head>
+
+<body>
+
+<!--BARRA MENU NAV-->
+<section id="menu">
+  <nav class="navbar navbar-expand-lg" >
+    <div class="container-fluid">
+      <a href="../index.html"><img class="navbar-brand" src="../Imagenes/logocom.png" alt="Logo"></a> 
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html#carrusel">Inicio</a>
+          </li>
+
+          <section id="marcas">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Marcas
+              </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="../html/dockers.html">Dockers</a></li>
+                  <li><a class="dropdown-item" href="../html/fred_perry.html">Fred Perry</a></li>
+                  <li><a class="dropdown-item" href="../html/polo.html">Ralph Lauren</a></li>
+                </ul>
+            </li>
+          </section>
+
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html#nosotros">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html#contacto">Contacto</a>
+          </li>
+        </ul>
+        
+        <!--Nav derecho-->
+        <section id="NavDer">
+        <form class="d-flex" role="search">
+          <a class="icono" onclick="alert('Lo sentimos, este servicio no esta disponible en este momento, intentelo más tarde')" href="#"><i class="fa-solid fa-heart"></i></a>
+          <a class="icono2" onclick="alert('Lo sentimos, este servicio no esta disponible en este momento, intentelo más tarde')" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+          <p id="InicioLogo"> 
+            <a class="icono3" href="../html/inicio.html"><i class="fa-solid fa-user"></i></a>
+          </p>
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </section>
+      </div>
+    </div>
+  </nav>
+</section>
+
+<!--IMAGEN PRINCIPAL-->
+<section id="hero">
+  <h1 class="display-1 fw-bolder text-capitalize"><span class="badge">FRED PERRY</span></h1>
+</section>
+
+<!--CARTAS PARA PRODUCTO-->
+<section id="cartas">
+  <div class="product-card">
+    <div class="product-tumb">
+      <img src="../Imagenes/fperry1.png" alt="">
+    </div>
+    <div class="product-details">
+      <span class="product-catagory">Playeras, Fred Perry</span>
+      <h4><a href="">Playera Fred Perry</a></h4>
+      <p>Playera Fred Perry tipo polo color blanco para caballero. </p>
+      <div class="product-bottom-details">
+        <div class="product-price">$1,499.99</div>
+        <div class="product-links">
+          <a href=""><i class="fa fa-heart"></i></a>
+          <a href=""><i class="fa fa-shopping-cart"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="product-card">
+    <div class="badge" style="background-color: rgb(91, 26, 30);">¡NUEVO!</div>
+    <div class="product-tumb">
+      <img src="../Imagenes/fperry2.png" alt="">
+    </div>
+    <div class="product-details">
+      <span class="product-catagory">Sudaderas, Fred Perry</span>
+      <h4><a href="">Sudadera Fred Perry</a></h4>
+      <p>Sudadera Fred Perry de corte recto para caballero.</p>
+      <div class="product-bottom-details">
+        <div class="product-price">$3,499.99</div>
+        <div class="product-links">
+          <a href=""><i class="fa fa-heart"></i></a>
+          <a href=""><i class="fa fa-shopping-cart"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="product-card">
+    
+    <div class="product-tumb">
+      <img src="../Imagenes/fperry3.png" alt="">
+    </div>
+    <div class="product-details">
+      <span class="product-catagory">Camisas, Fred Perry</span>
+      <h4><a href="">Camisa Fred Perry</a></h4>
+      <p>Camisa Fred Perry manga larga color negro para caballero.</p>
+      <div class="product-bottom-details">
+        <div class="product-price">$2,599.99</div>
+        <div class="product-links">
+          <a href=""><i class="fa fa-heart"></i></a>
+          <a href=""><i class="fa fa-shopping-cart"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<section id="cartas">
+  <div class="product-card">
+    <div class="badge">¡PROMOCIÓN!</div>
+    <div class="product-tumb">
+      <img src="../Imagenes/fperry4.png" alt="">
+    </div>
+    <div class="product-details">
+      <span class="product-catagory">Sudaderas, Fred Perry</span>
+      <h4><a href="">Sudadera Fred Perry</a></h4>
+      <p>Sudadera Fred Perry de color negro con capucha para caballero. </p>
+      <div class="product-bottom-details">
+        <div class="product-price"><small>$3,799.99</small>$2,999.99</div>
+        <div class="product-links">
+          <a href=""><i class="fa fa-heart"></i></a>
+          <a href=""><i class="fa fa-shopping-cart"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="product-card">
+    <div class="badge" style="background-color: rgb(91, 26, 30);">¡NUEVO!</div>
+    <div class="product-tumb">
+      <img src="../Imagenes/fperry5.png" alt="">
+    </div>
+    <div class="product-details">
+      <span class="product-catagory">Chamarras, Fred Perry</span>
+      <h4><a href="">Chamarra Fred Perry</a></h4>
+      <p>Chamarra Fred Perry color negro para caballero.</p>
+      <div class="product-bottom-details">
+        <div class="product-price">$2,999.99</div>
+        <div class="product-links">
+          <a href=""><i class="fa fa-heart"></i></a>
+          <a href=""><i class="fa fa-shopping-cart"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="product-card">
+    <div class="product-tumb">
+      <img src="../Imagenes/fperry6.png" alt="">
+    </div>
+    <div class="product-details">
+      <span class="product-catagory">Playeras, Fred Perry</span>
+      <h4><a href="">Playera Fred Perry</a></h4>
+      <p>Playera Fred Perry cuello redondo color cafe con estampado para caballero. </p>
+      <div class="product-bottom-details">
+        <div class="product-price">$1,499.99</div>
+        <div class="product-links">
+          <a href=""><i class="fa fa-heart"></i></a>
+          <a href=""><i class="fa fa-shopping-cart"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<section id="cartas">
+  <div class="product-card">
+    <div class="badge" style="background-color: rgb(91, 26, 30);">¡NUEVO!</div>
+    <div class="product-tumb">
+      <img src="../Imagenes/fperry7.png" alt="">
+    </div>
+    <div class="product-details">
+      <span class="product-catagory">Chamarras, Fred Perry</span>
+      <h4><a href="">Chamarra Fred Perry</a></h4>
+      <p>Chamarra Fred Perry rompevientos de color azul marino para caballero.</p>
+      <div class="product-bottom-details">
+        <div class="product-price">$6,999.99</div>
+        <div class="product-links">
+          <a href=""><i class="fa fa-heart"></i></a>
+          <a href=""><i class="fa fa-shopping-cart"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="product-card">
+    <div class="product-tumb">
+      <img src="../Imagenes/fperry8.png" alt="">
+    </div>
+    <div class="product-details">
+      <span class="product-catagory">Pantalon, Fred Perry</span>
+      <h4><a href="">Pantalon Fred Perry</a></h4>
+      <p>Pantalon Fred Perry corte recto de color cafe para caballero.</p>
+      <div class="product-bottom-details">
+        <div class="product-price">$3,449.99</div>
+        <div class="product-links">
+          <a href=""><i class="fa fa-heart"></i></a>
+          <a href=""><i class="fa fa-shopping-cart"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!--FOOTER-->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col">
+        <h4>Empresa</h4>
+        <ul>
+          <li><a href="#">Sobre Nosotros</a></li>
+          <li><a href="#">Nuestros Servicios</a></li>
+          <li><a href="#">Politicas de Privacidad</a></li>
+          <li><a href="#">Programa de Afiliación</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Ayuda</h4>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Envío</a></li>
+          <li><a href="#">Devoluciones</a></li>
+          <li><a href="#">Estado de Pedido</a></li>
+          <li><a href="#">Opciones de Pago</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Tienda en Linea</h4>
+        <ul>
+          <li><a href="../html/dockers.html">Dockers</a></li>
+          <li><a href="../html/fred_perry.html">Fred Perry</a></li>
+          <li><a href="../html/polo.html">Ralph Lauren</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>¡Siguenos!</h4>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="legal">
+      <p>&copy; Gallo A La Moda 2022 Copyright.</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

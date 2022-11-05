@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Cuenta</title>
+  <link rel="stylesheet" href="../css/inicio.css">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <link rel="shortcut icon" href="../Imagenes/Logo.ico"> 
+
+</head>
+
+<body>
+
+
+<!--FORMULARIO-->
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="#" name="form1" >
+			<h1>Crear Cuenta</h1>
+			<span>O usa tu cuenta para iniciar sesión</span>
+			<input type="text" placeholder="Nombre" required="" />
+			<input type="email" placeholder="Correo" required="" />
+            <span class="icon-eye2"><i class="fa-solid fa-eye-slash"></i></span>
+			<input type="password" name="pass" placeholder="Contraseña" required="" />
+			<button id="crear">Crear Cuenta</button>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+		<form action="#" name="form2" >
+			<h1>Inicia Sesión</h1>
+			<span>o crea una cuenta</span>
+			<input type="email" placeholder="Correo" name="email" required="" />
+            <span class="icon-eye"><i class="fa-solid fa-eye-slash"></i></span>
+			<input type="password" name="pass" placeholder="Contraseña" required="" />
+			<a onclick="alert('Lo sentimos, este servicio no esta disponible en este momento, intentelo más tarde')" id="olvide">¿Olvidaste tu contraseña?</a>
+			<button id="inicia">Iniciar Sesión</button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+                <a href="../index.html"><img src="../Imagenes/Logo.png"></a>
+				<h1>¡Bienvenido de nuevo!</h1>
+				<p>Inicie sesión con sus datos personales</p>
+				<button class="ghost" id="signIn">Iniciar Sesión</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+                <a href="../index.html"><img src="../Imagenes/Logo.png"></a>
+				<h1>¡Hola!</h1>
+				<p>Ingresa tus datos personales para crear una cuenta con nosotros</p>
+				<button class="ghost" id="signUp">Registrarse</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="../js/inicio.js" charset="utf-8"></script>
+</body>
+
+</html>
